@@ -1,0 +1,13 @@
+# Python temp files
+__pycache__/
+*.pyc
+
+# Notebook autosaves
+.ipynb_checkpoints/
+
+# Data (re-creatable from the API)
+data/raw/
+*.duckdb
+
+# Local environments (yours lives outside the repo, but just in case)
+.venv/
